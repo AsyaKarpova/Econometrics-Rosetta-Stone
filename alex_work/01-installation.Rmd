@@ -1,0 +1,43 @@
+#  Установка софта {#installsoft}
+
+
+---
+title: "Коан об установке софта"
+author: "Пуассон и ко"
+date: "3/14/2019"
+output: html_document
+editor_options: 
+chunk_output_type: console
+library(knitr)
+knitr::opts_chunk$set(engine.path = list(stata = stataexe), collectcode = TRUE)
+---
+<!-- Цвета для кусков кода 
+<style>
+pre.r {
+    background-color: #81BEF7 !important;
+}
+pre.stata {
+    background-color: #BDBDBD !important;
+}
+</style> -->
+```
+
+```
+
+Перед началом работы установим RStudio, программное обеспечение для программирования на R.
+
+Инструкция для Windows:
+
+1. Загрузите и установите R с официального сайта: http://cran.cnr.berkeley.edu/ (нажмите на “Download R for Windows” > “base” > “Download R 3.x.x for Windows”)
+![Windows version.](https://ibb.co/Jy2fvYK)
+2. Загрузите RStudio с официального сайта: https://www.rstudio.com/products/rstudio/download/ (выберите подходящую версию из предложенных опций, бесплатной будет вполне достаточно для работы с данной книгой).
+![Webpage.](https://ibb.co/ftnzBMK)
+3. Готово, отныне вы можете использовать RStudio на вашем компьютере c Windows.
+
+Инструкция для Mac:
+1. Загрузите и установите R с официального сайта: http://cran.cnr.berkeley.edu/ (нажмите на “Download R for (Mac) OS X” > “Latest Release” > “R 3.x.x”)
+![Mac version.](https://ibb.co/Mc2XrTV)
+2. Загрузите RStudio с официального сайта: https://www.rstudio.com/products/rstudio/download/ (выберите подходящую версию из предложенных опций, бесплатной будет вполне достаточно для работы с данной книгой).
+![Webpage.](https://ibb.co/ftnzBMK)
+3. Готово, отныне вы можете использовать RStudio на вашем компьютере c Mac OS.
+
